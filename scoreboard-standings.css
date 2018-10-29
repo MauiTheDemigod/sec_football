@@ -1,0 +1,173 @@
+/* setting up the grid for the scoreboard and standings divs */
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 30px;
+  width: 90%;
+  margin: 30px auto;
+  padding: 0;
+}
+
+.scoreboard, .standings {
+  margin: 0;
+  padding-bottom: 20px;
+  background: #fff;
+  border: 1px solid #f1f2f3;
+  border-radius: 7px;
+  box-shadow: 2px 2px 2px #f1f2f3;
+}
+
+.standings {
+  grid-column: 2;
+  max-height: 605px;
+}
+
+.scoreboard h1, .standings h1 {
+  text-align: center;
+}
+
+/* Styling the week selector */
+
+#weekSelector {
+  outline: none;
+  width: 120px;
+  margin: 5px 0 7px 30px;
+  padding: 5px;
+  padding-right: 0;
+  border: 1px solid #f1f2f3;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #f1f2f3;
+}
+
+/* setting up the grid for the scoreboard */
+
+.gameContainer {
+  clear: both;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  margin: 0 30px 10px 30px;
+}
+
+.gameDate {
+  grid-column: 1 / span 2;
+  margin: 10px 0 -10px 5px;
+  margin-left: 5px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #999;
+}
+
+.game {
+  padding: 10px;
+  font-size: 1.4rem;
+  border: 1px solid #f1f2f3;
+  border-radius: 7px;
+  box-shadow: 1px 1px 1px #f1f2f3;
+}
+
+/* game styling */
+
+.game table {
+  width: 98%;
+}
+
+.game table tr {
+  height: 35px;
+}
+
+.game table thead th:nth-of-type(1) {
+  text-align: left;
+}
+
+.game table thead th:nth-of-type(2) {
+  text-align: right;
+}
+
+.game table tr td:nth-of-type(1) {
+  width: 65px;
+}
+
+.game table tr td:nth-of-type(2) {
+  width: 20px;
+  text-align: right;
+}
+
+.game table tr td:nth-of-type(3) {
+  padding-left: 10px;
+}
+
+.game table tr td:nth-of-type(4) {
+  width: 42px;
+  text-align: right;
+}
+
+.awayTeamLogo img, .homeTeamLogo img {
+  display: block;
+  width: 100%;
+  max-width: 35px;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+/* standings table styling */
+
+.standings table {
+  width: 87%;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  border-collapse: collapse;
+  border: 1px solid #f1f2f3;
+  box-shadow: 1px 1px 1px #f1f2f3;
+}
+
+.standings table tr {
+  height: 30px;
+}
+
+.standings th {
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+}
+
+.standings th, .standings td {
+  border: 1px solid #f1f2f3;
+}
+
+.standings tbody tr:nth-of-type(even) {
+  background-color: #fdfdfd;
+}
+
+.standings th:nth-of-type(1), .standings th:nth-of-type(4) {
+  width: 58%;
+}
+
+.standings th:nth-of-type(2), .standings th:nth-of-type(3) {
+  width: 20%;
+}
+
+.standings tr td:nth-of-type(1), .standings tr td:nth-of-type(5) {
+  width: 13%;
+}
+
+.standings tr td:nth-of-type(1) {
+  border-right: none;
+}
+
+.standings tr td:nth-of-type(2) {
+  padding-left: 12px;
+  border-left: none;
+}
+
+.standings tr td:nth-of-type(3), .standings tr td:nth-of-type(4) {
+  text-align: center;
+}
+
+.standings img {
+  display: block;
+  width: 95%;
+  max-width: 28px;
+  vertical-align: middle;
+  margin: 2px;
+  padding-left: 5px;
+}

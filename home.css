@@ -1,0 +1,88 @@
+/* page layout styling */
+* {
+  font-family: 'Bai Jamjuree', 'Open Sans', sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  background: #f7f7f7;
+}
+
+.spacer {
+  width: 100%;
+  height: 50px;
+  margin: 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background: #01203e;
+}
+
+/* link styling */
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+/* main navigation bar styling */
+
+#main-nav-logo {
+  float: left;
+  width: 100px;
+  margin: 5px;
+  margin-top: -13px;
+}
+
+#main-nav-bar {
+  height: 70px;
+  list-style-type: none;
+  line-height: 4.3;
+  background: #01203e;
+}
+
+#main-nav-bar li {
+  display: inline-block;
+}
+
+#main-nav-bar a {
+  margin-left: 20px;
+  font-size: 1.6rem;
+  color: white;
+}
+
+#main-nav-bar a:hover, #main-nav-bar a:focus {
+  color: #4f92ff;
+}
+
+/* footer styling */
+
+#school-website-list {
+  display: grid;
+  grid-template-columns: 3fr repeat(14, 1fr);
+  grid-gap: 5px;
+  grid-row: 50px;
+}
+
+#school-website-list p {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
+#school-website-list a {
+  outline: none;
+}
+
+#school-website-list img {
+  width: 38px;
+  margin-top: 5px;
+}
