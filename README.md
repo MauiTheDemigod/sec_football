@@ -8,3 +8,5 @@ Next steps (in no particular order):
   - Learn internalStorage
   - Buy a laptop so I can learn Node :)
   - Build a webscraper so I can provide live updates
+
+(data current as of: 10/28/2018)
