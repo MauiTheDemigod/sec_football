@@ -78,11 +78,7 @@ let georgiaTech = new NonSecTeam('Georgia Tech', 'georgia-tech', 'Yellow Jackets
 let floridaState = new NonSecTeam('Florida State', 'florida-state', 'Seminoles');
 let louisville = new NonSecTeam('Louisville', 'louisville', 'Cardinals');
 
-//creating export statements for SEC and non-SEC teams
-const secTeams = [ alabama, arkansas, auburn, florida, georgia, kentucky, lsu, mississippi, mississippiState, missouri, southCarolina, tennessee, texasAm, vanderbilt];
-let nonSecTeams = [];
-
-//creating the data store to act as a makeshift database
+//creating the data store to act as a makeshift database... this is needed since I don't have access to Node or a database and have yet to learn internalStorage
 let schedule = {
   week7:  {
     days: 1,
