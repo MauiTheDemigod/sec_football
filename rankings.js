@@ -1,6 +1,3 @@
-//create the rankings tables
-//create the rankings data store
-//download team logos for new teams
 let rankingContainers = document.getElementsByClassName('rankingContainer');
 let playoffRank = document.getElementById('playoffRank');
 let apRank = document.getElementById('apRank');
