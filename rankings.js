@@ -4,7 +4,7 @@ let apRank = document.getElementById('apRank');
 let coachesRank = document.getElementById('coachesRank');
 
 class RankingsTeams {
-  constructor(teamCommonNameMascot, record, playoffRank, apRank, apRankPoints, coachesRank, coachesRankPoints, fileName) {
+  constructor(teamCommonNameMascot, record, playoffRank, apRank, apRankPoints, coachesRank, coachesRankPoints, imgUrl) {
     this.teamCommonNameMascot = teamCommonNameMascot;
     this.record = record;
     this.playoffRank = playoffRank;
@@ -12,7 +12,7 @@ class RankingsTeams {
     this.apRankPoints = apRankPoints;
     this.coachesRank = coachesRank;
     this.coachesRankPoints = coachesRankPoints;
-    this.fileName = fileName;
+    this.imgUrl = imgUrl;
   }
 }
 
@@ -102,7 +102,7 @@ function createRankingsTable(rankingsId) {
     rankingsTableBodyRowRank.textContent = teamsArray[i][rankingsId];
     let rankingsTableBodyRowImgTd = document.createElement('td');
     let rankingsTableBodyRowImg = document.createElement('img');
-    rankingsTableBodyRowImg.src = `images/${teamsArray[i].fileName}.png`;
+    rankingsTableBodyRowImg.src = `images/${teamsArray[i].imgUrl}.png`;
     rankingsTableBodyRowImgTd.appendChild(rankingsTableBodyRowImg);
     let rankingsTableBodyRowTeamName = document.createElement('td');
     rankingsTableBodyRowTeamName.textContent = teamsArray[i].teamCommonNameMascot;
