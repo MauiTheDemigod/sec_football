@@ -3,7 +3,7 @@
 //download team logos for new teams
 let rankingContainers = document.getElementsByClassName('rankingContainer');
 let playoffRank = document.getElementById('playoffRank');
-let apRankings = document.getElementById('apRank');
+let apRank = document.getElementById('apRank');
 let coachesRank = document.getElementById('coachesRank');
 
 class RankingsTeams {
