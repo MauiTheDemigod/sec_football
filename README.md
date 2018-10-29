@@ -7,3 +7,4 @@ Next steps (in no particular order):
   - Learn ES6 modules to reduce overall code using import/export
   - Learn internalStorage
   - Buy a laptop so I can learn Node :)
+  - Build a webscraper so I can provide live updates
