@@ -282,7 +282,7 @@ let schedule = {
         game0: {
           gameTime: '12:00 PM ET',
           awayTeam: texasAm,
-          awayRank: 25,
+          awayRank: 20,
           awayScore: '',
           homeTeam: auburn,
           homeRank: 0,
@@ -305,7 +305,7 @@ let schedule = {
           awayRank: 6,
           awayScore: '',
           homeTeam: kentucky,
-          homeRank: 11,
+          homeRank: 9,
           homeScore: '',
           final: false
         },
@@ -315,7 +315,7 @@ let schedule = {
           awayRank: 0,
           awayScore: '',
           homeTeam: florida,
-          homeRank: 13,
+          homeRank: 11,
           homeScore: '',
           final: false
         },
@@ -335,7 +335,7 @@ let schedule = {
           awayRank: 0,
           awayScore: '',
           homeTeam: mississippiState,
-          homeRank: 23,
+          homeRank: 18,
           homeScore: '',
           final: false
         },
@@ -345,7 +345,7 @@ let schedule = {
           awayRank: 1,
           awayScore: '',
           homeTeam: lsu,
-          homeRank: 4,
+          homeRank: 3,
           homeScore: '',
           final: false
         }
@@ -360,7 +360,7 @@ let schedule = {
         game0: {
           gameTime: 'TBD',
           awayTeam: mississippiState,
-          awayRank: 0,
+          awayRank: 18,
           awayScore: '',
           homeTeam: alabama,
           homeRank: 1,
@@ -370,7 +370,7 @@ let schedule = {
         game1: {
           gameTime: 'TBD',
           awayTeam: lsu,
-          awayRank: 4,
+          awayRank: 3,
           awayScore: '',
           homeTeam: arkansas,
           homeRank: 0,
@@ -393,14 +393,14 @@ let schedule = {
           awayRank: 0,
           awayScore: '',
           homeTeam: florida,
-          homeRank: 13,
+          homeRank: 11,
           homeScore: '',
           final: false
         },
         game4: {
           gameTime: 'TBD',
           awayTeam: kentucky,
-          awayRank: 11,
+          awayRank: 9,
           awayScore: '',
           homeTeam: tennessee,
           homeRank: 0,
@@ -413,7 +413,7 @@ let schedule = {
           awayRank: 0,
           awayScore: '',
           homeTeam: texasAm,
-          homeRank: 25,
+          homeRank: 20,
           homeScore: '',
           final: false
         },
@@ -451,7 +451,7 @@ let schedule = {
           awayRank: 0,
           awayScore: '',
           homeTeam: lsu,
-          homeRank: 4,
+          homeRank: 3,
           homeScore: '',
           final: false
         },
@@ -471,7 +471,7 @@ let schedule = {
           awayRank: 0,
           awayScore: '',
           homeTeam: florida,
-          homeRank: 13,
+          homeRank: 11,
           homeScore: '',
           final: false
         },
@@ -481,7 +481,7 @@ let schedule = {
           awayRank: 0,
           awayScore: '',
           homeTeam: kentucky,
-          homeRank: 11,
+          homeRank: 9,
           homeScore: '',
           final: false
         },
@@ -491,7 +491,7 @@ let schedule = {
           awayRank: 0,
           awayScore: '',
           homeTeam: texasAm,
-          homeRank: 25,
+          homeRank: 20,
           homeScore: '',
           final: false
         },
@@ -501,7 +501,7 @@ let schedule = {
           awayRank: 0,
           awayScore: '',
           homeTeam: mississippiState,
-          homeRank: 23,
+          homeRank: 18,
           homeScore: '',
           final: false
         },
@@ -556,7 +556,7 @@ let schedule = {
         game0: {
           gameTime: '7:30 PM ET',
           awayTeam: mississippiState,
-          awayRank: 23,
+          awayRank: 18,
           awayScore: '',
           homeTeam: mississippi,
           homeRank: 0,
@@ -606,10 +606,10 @@ let schedule = {
         game2: {
           gameTime: 'TBD',
           awayTeam: lsu,
-          awayRank: 4,
+          awayRank: 3,
           awayScore: '',
           homeTeam: texasAm,
-          homeRank: 25,
+          homeRank: 20,
           homeScore: '',
           final: false
         },
@@ -626,7 +626,7 @@ let schedule = {
         game4: {
           gameTime: 'TBD',
           awayTeam: florida,
-          awayRank: 9,
+          awayRank: 11,
           awayScore: '',
           homeTeam: floridaState,
           homeRank: 0,
@@ -636,7 +636,7 @@ let schedule = {
         game5: {
           gameTime: 'TBD',
           awayTeam: kentucky,
-          awayRank: 11,
+          awayRank: 9,
           awayScore: '',
           homeTeam: louisville,
           homeRank: 0,

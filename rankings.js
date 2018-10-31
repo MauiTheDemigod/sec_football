@@ -17,42 +17,43 @@ class RankingsTeams {
 }
 
 //create RankingsTeams instances
-let alabama = new RankingsTeams('Alabama Crimson Tide', '8-0', '', 1, 1500, 1, 1598, 'alabama');
-let clemson = new RankingsTeams('Clemson Tigers', '8-0', '', 2, 1433, 2, 1537, 'clemson');
-let notreDame = new RankingsTeams('Notre Dame Fighting Irish', '8-0', '', 3, 1347, 3, 1458, 'notre-dame');
-let lsu = new RankingsTeams('LSU Tigers', '7-1', '', 4, 1317, 4, 1403, 'lsu-purple');
-let michigan = new RankingsTeams('Michigan Wolverines', '7-1', '', 5, 1240, 5, 1295, 'michigan');
-let texas = new RankingsTeams('Texas Longhorns', '6-2', '', 15, 719, 15, 721, 'texas');
-let georgia = new RankingsTeams('Georgia Bulldogs', '7-1', '', 6, 1202, 5, 1295, 'georgia');
-let oklahoma = new RankingsTeams('Oklahoma Sooners', '7-1', '', 7, 1132, 7, 1190, 'oklahoma');
-let florida = new RankingsTeams('Florida Gators', '6-2', '', 13, 734, 14, 743, 'florida');
-let ucf = new RankingsTeams('UCF Knights', '7-0', '', 9, 1014, 9, 1082, 'ucf');
-let ohioState = new RankingsTeams('Ohio State Buckeyes', '7-1', '', 8, 1022, 8, 1096, 'ohio-state');
-let kentucky = new RankingsTeams('Kentucky Wildcats', '7-1', '', 11, 905, 12, 932, 'kentucky');
-let westVirginia = new RankingsTeams('West Virginia Moutaineers', '6-1', '', 12, 891, 10, 992, 'west-virginia');
-let washingtonState = new RankingsTeams('Washington State Cougars', '7-1', '', 10, 938, 11, 932, 'washington-state');
-let washington = new RankingsTeams('Washington Huskies', '6-3', '', 26, '', 19, 285, 'washington');
-let texasAm = new RankingsTeams('Texas A&M Aggies', '5-3', '', 25, 132, 26, '', 'texas-am');
-let pennState = new RankingsTeams('Penn State Nittany Lions', '6-2', '', 14, 733, 13, 791, 'penn-state');
-let iowa = new RankingsTeams('Iowa Hawkeyes', '6-2', '', 19, 323, 18, 356, 'iowa');
-let oregon = new RankingsTeams('Oregon Ducks', '5-2', '', 0, 0, 0, 0, 'oregon');
-let wisconsin = new RankingsTeams('Wisconsin Badgers', '5-2', '', 0, 0, 0, 0, 'wisconsin');
-let southFlorida = new RankingsTeams('South Florida Bulls', '7-0', '', 0, 0, 0, 0, 'south-florida');
-let ncState = new RankingsTeams('NC State Wolfpack', '5-1', '', 0, 0, 0, 0, 'nc-state');
-let utah = new RankingsTeams('Utah Utes', '6-2', '', 16, 593, 16, 620, 'utah');
-let stanford = new RankingsTeams('Stanford Cardinal', '5-2', '', 0, 0, 0, 0, 'stanford');
-let appalachianState = new RankingsTeams('Appalachian State Mountaineers', '5-1', '', 0, 0, 0, 0, 'appalachian-state');
-let miami = new RankingsTeams('Miami Hurricanes', '5-2', '', 0, 0, 0, 0, 'miami');
-let houston = new RankingsTeams('Houston Cougars', '7-1', '', 17, 403, 17, 380, 'houston')
-let utahState = new RankingsTeams('Utah State Aggies', '7-1', '', 18, 340, 20, 281, 'utah-state');
-let fresnoState = new RankingsTeams('Fresno State Bulldogs', '7-1', '', 20, 261, 23, 191, 'fresno-state');
-let mississippiState = new RankingsTeams('Mississippi State Bulldogs', '5-3', '', 21, 204, 21, 226, 'mississippi-state');
-let syracuse = new RankingsTeams('Syracuse Orange', '6-2', '', 22, 192, 24, 183, 'syracuse');
-let virginia = new RankingsTeams('Virginia Cavaliers', '6-2', '', 23, 175, 22, 207, 'virginia');
-let bostonCollege = new RankingsTeams('Boston College Eagles', '6-2', '', 24, 169, 25, 171, 'boston-college');
+let alabama = new RankingsTeams('Alabama Crimson Tide', '8-0', 1, 1, 1500, 1, 1598, 'alabama');
+let clemson = new RankingsTeams('Clemson Tigers', '8-0', 2, 2, 1433, 2, 1537, 'clemson');
+let notreDame = new RankingsTeams('Notre Dame Fighting Irish', '8-0', 4, 3, 1347, 3, 1458, 'notre-dame');
+let lsu = new RankingsTeams('LSU Tigers', '7-1', 3, 4, 1317, 4, 1403, 'lsu-purple');
+let michigan = new RankingsTeams('Michigan Wolverines', '7-1', 5, 5, 1240, 5, 1295, 'michigan');
+let texas = new RankingsTeams('Texas Longhorns', '6-2', 17, 15, 719, 15, 721, 'texas');
+let georgia = new RankingsTeams('Georgia Bulldogs', '7-1', 6, 6, 1202, 5, 1295, 'georgia');
+let oklahoma = new RankingsTeams('Oklahoma Sooners', '7-1', 7, 7, 1132, 7, 1190, 'oklahoma');
+let florida = new RankingsTeams('Florida Gators', '6-2', 11, 13, 734, 14, 743, 'florida');
+let ucf = new RankingsTeams('UCF Knights', '7-0', 12, 9, 1014, 9, 1082, 'ucf');
+let ohioState = new RankingsTeams('Ohio State Buckeyes', '7-1', 10, 8, 1022, 8, 1096, 'ohio-state');
+let kentucky = new RankingsTeams('Kentucky Wildcats', '7-1', 9, 11, 905, 12, 932, 'kentucky');
+let westVirginia = new RankingsTeams('West Virginia Moutaineers', '6-1', 13, 12, 891, 10, 992, 'west-virginia');
+let washingtonState = new RankingsTeams('Washington State Cougars', '7-1', 8, 10, 938, 11, 932, 'washington-state');
+let washington = new RankingsTeams('Washington Huskies', '6-3', 26, 26, 0, 19, 285, 'washington');
+let texasAm = new RankingsTeams('Texas A&M Aggies', '5-3', 20, 25, 132, 26, '', 'texas-am');
+let pennState = new RankingsTeams('Penn State Nittany Lions', '6-2', 14, 14, 733, 13, 791, 'penn-state');
+let iowa = new RankingsTeams('Iowa Hawkeyes', '6-2', 16, 19, 323, 18, 356, 'iowa');
+let oregon = new RankingsTeams('Oregon Ducks', '5-2', 26, 26, 0, 26, 0, 'oregon');
+let wisconsin = new RankingsTeams('Wisconsin Badgers', '5-2', 26, 26, 0, 26, 0, 'wisconsin');
+let southFlorida = new RankingsTeams('South Florida Bulls', '7-0', 26, 26, 0, 26, 0, 'south-florida');
+let ncState = new RankingsTeams('NC State Wolfpack', '5-2', 21, 26, 0, 26, 0, 'nc-state');
+let utah = new RankingsTeams('Utah Utes', '6-2', 15, 16, 593, 16, 620, 'utah');
+let stanford = new RankingsTeams('Stanford Cardinal', '5-2', 26, 26, 0, 26, 0, 'stanford');
+let appalachianState = new RankingsTeams('Appalachian State Mountaineers', '5-1', 26, 26, 0, 26, 0, 'appalachian-state');
+let miami = new RankingsTeams('Miami Hurricanes', '5-2', 26, 26, 0, 26, 0, 'miami');
+let houston = new RankingsTeams('Houston Cougars', '7-1', 26, 17, 403, 17, 380, 'houston')
+let utahState = new RankingsTeams('Utah State Aggies', '7-1', 26, 18, 340, 20, 281, 'utah-state');
+let fresnoState = new RankingsTeams('Fresno State Bulldogs', '7-1', 23, 20, 261, 23, 191, 'fresno-state');
+let mississippiState = new RankingsTeams('Mississippi State Bulldogs', '5-3', 18, 21, 204, 21, 226, 'mississippi-state');
+let syracuse = new RankingsTeams('Syracuse Orange', '6-2', 19, 22, 192, 24, 183, 'syracuse');
+let virginia = new RankingsTeams('Virginia Cavaliers', '6-2', 25, 23, 175, 22, 207, 'virginia');
+let bostonCollege = new RankingsTeams('Boston College Eagles', '6-2', 22, 24, 169, 25, 171, 'boston-college');
+let iowaState = new RankingsTeams('Iowa State Cyclones', '4-3', 24, 26, 0, 26, 0, 'iowa-state');
 
 //put the RankingsTeams instances in an array to be sorted later
-const teamsArray = [ alabama, clemson, notreDame, lsu, michigan, texas, georgia, oklahoma, florida, ucf, ohioState, kentucky, westVirginia, washingtonState, washington, texasAm, pennState, iowa, utah, houston, utahState, fresnoState, mississippiState, syracuse, virginia, bostonCollege ];
+const teamsArray = [ alabama, clemson, notreDame, lsu, michigan, texas, georgia, oklahoma, florida, ucf, ohioState, kentucky, westVirginia, washingtonState, washington, texasAm, pennState, iowa, oregon, wisconsin, southFlorida, ncState, utah, stanford, appalachianState, miami, houston, utahState, fresnoState, mississippiState, syracuse, virginia, bostonCollege, iowaState ];
 
 //creates the tables to hold the rankings for each poll
 function createRankingsTable(rankingsId) {

@@ -8,4 +8,4 @@ Next steps (in no particular order):
   - Buy a laptop so I can learn Node :)
   - Build a webscraper so I can provide live updates
 
-(data current as of: 10/28/2018)
+(data current as of: 10/30/2018)
